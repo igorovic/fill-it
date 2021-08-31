@@ -1,6 +1,8 @@
 [build]
   command = "npm run build"
-  functions = "functions/"
-  publish = "build/"
+  publish = "build"
+[functions]
+  directory = "functions"
+  node_bundler = "esbuild"
 [dev]
   autoLaunch = false

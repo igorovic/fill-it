@@ -13,12 +13,6 @@
       color: $color;
     }
   
-    div {
-      background: green;
-  
-      > p {
-        color: #fff;
-      }
-    }
+
   </style>
   
